@@ -1,0 +1,23 @@
+.footer__link {
+  margin: 0;
+  margin-right: 18px;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
+  transition: opacity 1s linear 0.5s;
+
+}
+
+.footer__link:link {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__link:visited {
+  color: #ffffff;
+}
