@@ -40,3 +40,10 @@
     
   }
 }
+
+@media screen and (max-width: 400px){
+  .place {
+    margin: 0;
+    padding: 0;
+  }
+}

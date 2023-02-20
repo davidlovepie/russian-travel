@@ -5,3 +5,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 400px){
+  .footer__links-list {
+    flex-direction: column;
+    width: 100%;
+  }
+}

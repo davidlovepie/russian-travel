@@ -7,3 +7,13 @@
   padding: 92px 0 24px;
   max-width: calc(100% - 48px * 2);
 }
+
+@media screen and (max-width: 400px){
+  .footer {
+    margin: 0;
+    padding-top: 64px;
+    flex-direction: column;
+    width: 100%;
+    line-height: 3.15;
+  }
+}

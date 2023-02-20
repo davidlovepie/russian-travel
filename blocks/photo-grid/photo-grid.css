@@ -23,3 +23,10 @@ max-width: 928px;
       padding-top: 88px;
         }
       }
+
+      @media screen and (max-width: 400px){
+        .photo-grid {
+          margin: 0;
+padding: 0;
+        }
+      }
