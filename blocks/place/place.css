@@ -1,5 +1,5 @@
 .place {
-  max-width: 100%;
+  max-width: calc(100% - 148px * 2);
   margin: 0 auto;
   color: rgb(255, 255, 255);
   display: grid;
@@ -9,7 +9,6 @@
   grid-template-areas:
       "title website"
       "image paragraph";
-  max-width: calc(100% - 148px * 2);
 }
 
 @media screen and (max-width:1160px){
