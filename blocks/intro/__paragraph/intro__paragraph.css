@@ -1,8 +1,20 @@
 .intro__paragraph {
   margin: 0;
-  margin-bottom: 33px;
+  padding-bottom: 33px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26.08px;
+}
+
+@media screen and (max-width: 600px){
+  .intro__paragraph {
+    margin: 0;
+    padding-bottom: 34px;
+    max-width: 288px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+  }
 }

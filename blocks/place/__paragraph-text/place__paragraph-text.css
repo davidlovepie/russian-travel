@@ -1,9 +1,26 @@
 .place__paragraph-text {
   margin: 0;
   padding: 0;
-  margin-bottom: 26px;
+  padding-bottom: 26px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 29.34px;
+}
+
+@media screen and (max-width: 1100px){
+  .place__paragraph-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  }
+
+
+  @media screen and (max-width: 600px) {
+  .place__paragraph-text {
+width: 90%;
+margin: 0 auto;
+  }
 }

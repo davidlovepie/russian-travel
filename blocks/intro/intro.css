@@ -1,4 +1,5 @@
 .intro {
+  max-width: 90%;
   margin: 0 auto;
   padding: 0;
   padding-top: 92px;
@@ -9,16 +10,20 @@
   color: #ffffff;
   }
 
-  @media screen and (max-width:1160px){
+  @media screen and (max-width:600px){
     .intro{
-    margin-left: 48px;
+      margin: 0;
+      padding: 0;
+      padding-top: 64px;
+      margin-left: 16px;
     }
-  }
+   }
 
-  @media screen and (max-width:800px){
-    .intro {
-      margin-left: 24px;
-      padding-top: 88px;
-
-      }
-  }
+  @media screen and (max-width:600px){
+    .intro{
+      margin: 0;
+      padding: 0;
+      padding-top: 64px;
+      margin-left: 16px;
+    }
+   }
