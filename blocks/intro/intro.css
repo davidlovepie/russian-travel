@@ -17,12 +17,3 @@
       margin-left: 16px;
     }
    }
-
-  @media screen and (max-width:600px){
-    .intro{
-      margin: 0;
-      padding: 0;
-      padding-top: 64px;
-      margin-left: 16px;
-    }
-   }
