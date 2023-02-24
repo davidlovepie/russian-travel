@@ -2,8 +2,6 @@
 <html lang="ru">
 
 <head>
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./vendor/fonts/inter.css">
     <link rel="stylesheet" href="./pages/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,10 +14,10 @@
            
     <header class="header">
             <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
-            <div class="header__lang-links">
-                <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
-                <a class="header__lang-link header__lang-link_en" href="#">En</a>
-            </div>
+            <ul class="header__lang-links-list">
+                <li class="header__lang-links"><a class="header__lang-link header__lang-link_active" style="color: white" href="#">Ru</a></li>
+                <li class="header__lang-links"><a class="header__lang-link"style="color: white" href="#">En</a></li>
+            </ul>
         </header>
         
         <main class="content">
@@ -57,7 +55,8 @@
                 </ul>
             </div>
         </section>
-        <ul class="photo-grid">
+        <section class="photo-grid">
+        <ul class="photo-grid__list">
             <li class="photo-grid__item"><img class="photo-grid__image" src="./images/photo-grid-train.jpg"
                     alt="Вид из окна поезда"></li>
             <li class="photo-grid__item"><img class="photo-grid__image" src="./images/photo-grid-atharva-tulsi.jpg"
@@ -83,6 +82,7 @@
             <li class="photo-grid__item"><img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg"
                     alt="Вид на лесистую гору"></li>
         </ul>
+    </section>
         <section class="places">
             <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
@@ -194,7 +194,7 @@
             </article>
         </section>
         <section class="cover">
-            <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+            <a class="cover__link" style="color: white" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
                 <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
                     электричках.</h3>
@@ -206,11 +206,11 @@
     <footer class="footer">
         <nav class="footer__links">
             <ul class="footer__links-list">
-                <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-                <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-                <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-                <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-                <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+                <li class="footer__links-item"><a class="footer__link" style="color: white"  href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+                <li class="footer__links-item"><a class="footer__link" style="color: white"  href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+                <li class="footer__links-item"><a class="footer__link" style="color: white"  href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+                <li class="footer__links-item"><a class="footer__link" style="color: white"  href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+                <li class="footer__links-item"><a class="footer__link" style="color: white"  href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
             </ul>
         </nav>
         <p class="footer__author"> &#169; 2023. Девид Фан</p>

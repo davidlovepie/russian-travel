@@ -5,23 +5,16 @@
   max-width: 360px;
   text-align: center;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   z-index: 4;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width: 600px){
   .cover__subtitle {
-    padding-bottom: 52px;
-    }
-}
-
-@media screen and (max-width:600px){
-  .cover__subtitle {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
+    margin-top: 16px;
     }
 }

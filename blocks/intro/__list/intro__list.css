@@ -6,8 +6,6 @@
 
 @media screen and (max-width: 600px){
   .intro__list {
-    margin: 0;
     padding-bottom: 64px;
-    list-style-type: none;
   }
 }

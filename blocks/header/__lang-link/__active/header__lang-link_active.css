@@ -1,0 +1,19 @@
+.header__lang-link_active {
+  margin-right: 18px;
+  text-decoration: underline;
+}
+
+.header__lang-link_active:hover {
+  opacity: 0.8;
+  transition: opacity 1s linear 0.5s;
+ 
+
+}
+
+@media screen and (max-width: 600px){
+  .header__lang-link_active {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.1;
+  }
+}

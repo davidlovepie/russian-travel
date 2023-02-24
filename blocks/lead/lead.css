@@ -1,17 +1,9 @@
 .lead {
   max-width: 90%;
   padding: 0;
-  padding-top: 52px;
-  margin: 0 auto;
+   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #ffffff;
-}
-
- @media screen and (max-width:600px){
-  .lead {
-    padding: 0;
-    padding-top: 0;
-  }
 }

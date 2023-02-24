@@ -9,20 +9,25 @@
   margin-top: 92px;
 }
 
-.cover:hover .cover__overlay {
-  opacity: 0.9;
-}
 
-@media screen and (max-width:1160px){
+@media screen and (max-width:1100px){
   .cover{
     max-width: 100%;
-    margin-top: 108px;
+    margin-top: 92px;
+}
   }
+    
+  @media screen and (max-width: 900px){
+    .cover {
+      margin-top: 84px;
+    }
+  }
+    
+  @media screen and (max-width: 600px){
+      .cover {
+margin: 0;
+      }
     }
 
     
-    @media screen and (max-width: 600px){
-      .cover__link {
-margin-top: 41px;
-      }
-    }
+

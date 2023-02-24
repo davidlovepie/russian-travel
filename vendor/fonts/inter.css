@@ -9,12 +9,12 @@ url(./Inter-Regular.woff) format('woff');
   src: url(./Inter-Bold.woff2) format('woff2'),
   url(./Inter-Bold.woff) format('woff');
   font-family: 'Inter';
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @font-face {
   src: url(./Inter-Black.woff2) format('woff2'),
   url(./Inter-Black.woff) format('woff');
   font-family: 'Inter';
-  font-weight: bold;
+  font-weight: 900;
 }

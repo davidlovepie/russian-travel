@@ -1,17 +1,8 @@
 .intro__span-accent {
-  font-style: normal;
-  font-weight: bold;
+  max-width: 288px;
+  margin: 0;
+  font-weight: 700;
   font-size: 12px;
   line-height: 18px;
-}
-
-@media screen and (max-width: 600px){
-  .intro__span-accent {
-    margin: 0;
-    max-width: 288px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
-  }
+  line-height: 1.5;
 }

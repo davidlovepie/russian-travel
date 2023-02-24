@@ -4,6 +4,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  text-decoration: none;
 }
 
 .place__link:hover {
@@ -18,4 +19,11 @@
 
 .place__link:visited {
   color: #ffffff;
+}
+
+@media screen and (max-width: 600px){
+  .place__link {
+    margin-top: 12px;
+    
+  }
 }

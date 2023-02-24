@@ -6,18 +6,25 @@
 }
 
 .footer__link:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   transition: opacity 1s linear 0.5s;
 
 }
 
-.footer__link:link {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: normal;
-
+.footer__link {
+  margin: 0;
+  font-size: 16px;
+  margin-right: 19px;
+  text-decoration: none;
 }
 
-.footer__link:visited {
-  color: #ffffff;
+@media screen and (max-width: 600px){
+  .footer__link {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    margin-right: 19px;
+    text-decoration: none;
+  }
 }

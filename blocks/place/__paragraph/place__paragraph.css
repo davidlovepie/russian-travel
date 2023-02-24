@@ -2,4 +2,11 @@
   grid-area: paragraph;
 }
 
+@media screen and (max-width: 600px){
+  .place__paragraph{
+    max-width: 89%;
+    margin: 0 auto;
+  }
+
+}
 

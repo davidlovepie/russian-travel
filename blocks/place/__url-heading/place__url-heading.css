@@ -6,5 +6,11 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 0.2em;
-  color: #504f4f;
+  color: #AAAAAA;
 }
+
+@media screen and (max-width: 600px){
+  .place__url-heading {
+padding: 0;
+  }
+    }
