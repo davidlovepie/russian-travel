@@ -8,6 +8,7 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  color: #FFFFFF;
 }
 
 .cover__link::before {
@@ -43,10 +44,10 @@ opacity: 0.8;
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
       .cover__link {
         min-height: 200px;
-        margin-top: 34px;
+        margin-top: 62px;
       }
         }
 

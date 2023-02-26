@@ -16,9 +16,23 @@
   .place {
     max-width: 100%;
     margin: 0;
-    margin-top: 81px;
+    margin-top: 92px;
     gap: 48px 28px;
     grid-template-columns: 440px 1fr;
+}
+.place:nth-child(n+2){
+  margin-top: 78px;
+}
+
+.place:nth-child(n+3){
+  margin-top: 77px;
+}
+.place:nth-child(n+4){
+  margin-top: 81px;
+}
+
+.place:nth-child(n+5){
+  margin-top: 83px;
 }
   }
 
@@ -28,15 +42,28 @@
 
 @media screen and (max-width:900px){
   .place{
+    margin-top: 86px;
     grid-template-columns: 340px 352px;
   }
   .place:nth-child(n+2){
+    margin-top: 64px;
+  }
+  
+  .place:nth-child(n+3){
     margin-top: 67px;
-}
-}
-@media screen and (max-width: 600px){
+  }
+  .place:nth-child(n+4){
+    margin-top: 68px;
+  }
+  
+  .place:nth-child(n+5){
+    margin-top: 67px;
+  }
+    }
+
+
+@media screen and (max-width: 767px){
   .place{
-    padding: 0;
     margin-top: 68px;
     display: flex;
     flex-direction: column;
@@ -58,7 +85,7 @@
   }
 
   .place:nth-child(n+5){
-    margin-top: 44px;
+    margin-top: 69px;
   }
 
   }

@@ -3,3 +3,17 @@
   justify-content: space-between;
   align-items: end;
 }
+
+
+
+@media screen and (max-width: 600px){
+  .header {
+align-items: normal;
+max-width: 288px;
+max-height: 42px;
+margin: 0 auto;
+margin-top: 16px;
+margin-bottom: 48px;
+margin-left: 16px;
+  }
+  }

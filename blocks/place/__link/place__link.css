@@ -4,22 +4,15 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .place__link:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   transition: opacity 1s linear 0.5s;
 
 }
 
-.place__link:link {
-  color: #ffffff;
-}
-
-.place__link:visited {
-  color: #ffffff;
-}
 
 @media screen and (max-width: 600px){
   .place__link {

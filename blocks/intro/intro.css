@@ -9,6 +9,12 @@
   color: #ffffff;
   }
 
+  @media screen and (max-width: 900px){
+    .intro{
+      padding-top: 88px;
+    }
+   }
+
   @media screen and (max-width: 600px){
     .intro{
       margin: 0;
