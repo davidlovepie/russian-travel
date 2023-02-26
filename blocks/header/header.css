@@ -9,7 +9,6 @@
 @media screen and (max-width: 767px){
   .header {
 align-items: normal;
-max-width: 288px;
 max-height: 42px;
 margin: 0 auto;
 margin-top: 16px;
