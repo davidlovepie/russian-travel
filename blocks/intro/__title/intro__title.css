@@ -9,7 +9,7 @@
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
   .intro__title{
     max-width: 238px;
     font-size: 1.09;

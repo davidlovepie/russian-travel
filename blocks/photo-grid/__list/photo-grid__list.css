@@ -32,10 +32,12 @@ row-gap: 11px;
         }
       }
 
-      @media screen and (max-width: 600px){
+      @media screen and (max-width: 767px){
         .photo-grid__list {
 padding: 0;
 row-gap: 8px;
+grid-template-columns: 288px, 1fr;
+grid-template-rows: 216px, 1fr;
 }
         }
       

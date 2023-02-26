@@ -6,7 +6,7 @@
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
   .header {
 align-items: normal;
 max-width: 288px;

@@ -17,7 +17,7 @@
 }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
   .footer__author {
     text-align: left;
     margin-top: 46px;

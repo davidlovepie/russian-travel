@@ -21,14 +21,14 @@
     grid-template-columns: 440px 1fr;
 }
 .place:nth-child(n+2){
-  margin-top: 78px;
+  margin-top: 79px;
 }
 
 .place:nth-child(n+3){
-  margin-top: 77px;
+  margin-top: 78px;
 }
 .place:nth-child(n+4){
-  margin-top: 81px;
+  margin-top: 79px;
 }
 
 .place:nth-child(n+5){
@@ -46,18 +46,20 @@
     grid-template-columns: 340px 352px;
   }
   .place:nth-child(n+2){
-    margin-top: 64px;
+    margin-top: 69px;
   }
   
   .place:nth-child(n+3){
-    margin-top: 67px;
+    margin-top: 72px;
   }
   .place:nth-child(n+4){
-    margin-top: 68px;
+    margin-top: 73px;
   }
   
   .place:nth-child(n+5){
-    margin-top: 67px;
+
+    margin-top: 72px;
+
   }
     }
 
@@ -74,18 +76,19 @@
   }
 
   .place:nth-child(n+2){
-    margin-top: 68px;
+    margin-top: 75px;
   }
 
   .place:nth-child(n+3){
-    margin-top: 43px;
+    margin-top: 48px;
   }
   .place:nth-child(n+4){
-    margin-top: 41px; 
+    margin-top: 49px;
+
   }
 
   .place:nth-child(n+5){
-    margin-top: 69px;
+    margin-top: 74px;
   }
 
   }
